@@ -1,0 +1,296 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Renault Kwid</title>
+  <link rel="stylesheet" href="index.css" />
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+    crossorigin="anonymous"
+  />
+  <style>
+    .thumbnail {
+      width: 80px;
+      height: 60px;
+      object-fit: cover;
+      cursor: pointer;
+      border: 2px solid transparent;
+    }
+    .thumbnail.active {
+      border: 2px solid #007bff;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-dark bg-dark">
+  <div class="container-fluid position-relative">
+    <!-- Logo a la izquierda -->
+    <a class="navbar-brand" href="index.html">
+      <img
+        src="pngimg.com - renault_PNG45.png"
+        alt="Logo"
+        width="72"
+        height="60"
+        class="d-inline-block align-text-top"
+      />
+    </a>
+
+    <!-- Texto centrado absolutamente -->
+    <div class="position-absolute top-50 start-50 translate-middle">
+      <strong class="fs-4 text-light">Renault</strong>
+    </div>
+  </div>
+</nav>
+
+<div class="resolucion">
+  <div class="Compu">
+<h1>Kangoo Express 5 Asientos</h1>
+<div class="container">
+  <ul class="nav nav-tabs mb-3" id="mediaTabsCompu">
+    <li class="nav-item">
+      <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#fotosCompu" type="button">
+        FOTOS
+      </button>
+    </li>
+  </ul>
+
+  <div class="tab-content">
+    <div class="tab-pane fade show active" id="fotosCompu">
+      <div class="mb-3">
+        <img id="mainImageCompu" src="Kangoo5A1.webp" class="img-fluid" alt="Principal" />
+      </div>
+
+      <div class="d-flex overflow-auto px-2 gap-2">
+        <img src="Kangoo5A1.webp" class="thumbnail active" onclick="changeImageCompu(this)" />
+        <img src="Kangoo5A2.webp" class="thumbnail" onclick="changeImageCompu(this)" />
+        <img src="Kangoo5A3.webp" class="thumbnail" onclick="changeImageCompu(this)" />
+        <img src="Kangoo5A4.webp" class="thumbnail" onclick="changeImageCompu(this)" />
+        <img src="Kangoo5A5.webp" class="thumbnail" onclick="changeImageCompu(this)" />
+        <img src="Kangoo5A6.webp" class="thumbnail" onclick="changeImageCompu(this)" />
+      </div>
+    </div>
+  </div>
+
+    <p>
+      La Renault Kangoo Express 5 asientos es una furgoneta versátil que combina comodidad para pasajeros con una gran capacidad de carga. Equipada con un motor naftero 1.6 SCe de 114 CV, ofrece un excelente equilibrio entre rendimiento, eficiencia de consumo y confiabilidad mecánica.
+    </p>
+    <p>
+      transportar hasta cinco personas cómodamente, y cuenta con puertas laterales corredizas, pantalla táctil con Android Auto y Apple CarPlay, y múltiples asistencias de seguridad.
+    </p>
+    <p>
+Esta versión incorpora una configuración de cinco plazas reales, con una segunda fila de asientos rebatible (60/40), permitiendo ampliar o reducir el espacio de carga según la necesidad del momento. Gracias a sus puertas laterales corredizas vidriadas, se facilita el acceso para pasajeros o el traslado de objetos voluminosos.
+    </p>
+</div>
+  <div class="p-3 bg-light">
+    <form action="https://formsubmit.co/ventas@centraldeplanesadministracion.com" method="POST">
+      <!-- Evita CAPTCHA -->
+      <input type="hidden" name="_captcha" value="false" />
+
+      <div class="mb-3">
+        <label for="email" class="form-label">Correo electrónico</label>
+        <input
+          type="email"
+          name="email"
+          class="form-control"
+          id="email"
+          placeholder="tucorreo@ejemplo.com"
+          required
+        />
+      </div>
+
+      <div class="mb-3">
+        <label for="telefono" class="form-label">Número de teléfono</label>
+        <input
+          type="tel"
+          name="telefono"
+          class="form-control"
+          id="telefono"
+          placeholder="+54 9 11 1234-5678"
+          required
+        />
+      </div>
+
+      <div class="mb-3">
+        <label for="mensaje" class="form-label">Mensaje</label>
+        <textarea
+          name="mensaje"
+          class="form-control"
+          id="mensaje"
+          rows="3"
+          placeholder="Contanos qué modelo te interesa, o dejá tu consulta..."
+          required
+        ></textarea>
+      </div>
+
+      <div class="d-grid">
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </div>
+    </form>
+  </div>
+</div>
+  </div>
+
+
+  
+  <div class="Tablet">
+
+
+  </div>
+
+
+
+  <div class="Celu">
+    <h1>Kwid</h1>
+    <div class="container">
+      <ul class="nav nav-tabs mb-3" id="mediaTabs">
+  <li class="nav-item">
+    <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#fotos" type="button">
+      FOTOS
+    </button>
+  </li>
+</ul>
+
+<div class="tab-content">
+  <!-- Fotos Tab -->
+  <div class="tab-pane fade show active" id="fotos">
+    <!-- Imagen principal -->
+    <div class="mb-3">
+      <img id="mainImage" src="Kangoo5A1.webp" class="img-fluid" alt="Principal" />
+    </div>
+
+    <!-- Miniaturas -->
+    <div class="d-flex overflow-auto px-2 gap-2">
+      <img src="Kangoo5A1.webp" class="thumbnail active" onclick="changeImage(this)" />
+      <img src="Kangoo5A2.webp" class="thumbnail" onclick="changeImage(this)" />
+      <img src="Kangoo5A3.webp" class="thumbnail" onclick="changeImage(this)" />
+      <img src="Kangoo5A4.webp" class="thumbnail" onclick="changeImage(this)" />
+      <img src="Kangoo5A5.webp" class="thumbnail" onclick="changeImage(this)" />
+      <img src="Kangoo5A6.webp" class="thumbnail" onclick="changeImage(this)" />
+    </div>
+  </div>
+</div>
+
+    <p>
+      La Renault Kangoo Express 5 asientos es una furgoneta versátil que combina comodidad para pasajeros con una gran capacidad de carga. Equipada con un motor naftero 1.6 SCe de 114 CV, ofrece un excelente equilibrio entre rendimiento, eficiencia de consumo y confiabilidad mecánica.
+    </p>
+    <p>
+      transportar hasta cinco personas cómodamente, y cuenta con puertas laterales corredizas, pantalla táctil con Android Auto y Apple CarPlay, y múltiples asistencias de seguridad.
+    </p>
+    <p>
+Esta versión incorpora una configuración de cinco plazas reales, con una segunda fila de asientos rebatible (60/40), permitiendo ampliar o reducir el espacio de carga según la necesidad del momento. Gracias a sus puertas laterales corredizas vidriadas, se facilita el acceso para pasajeros o el traslado de objetos voluminosos.
+    </p>
+  </div>
+
+  <div class="p-3 bg-light">
+    <form action="https://formsubmit.co/ventas@centraldeplanesadministracion.com" method="POST">
+      <!-- Evita CAPTCHA -->
+      <input type="hidden" name="_captcha" value="false" />
+
+      <div class="mb-3">
+        <label for="email" class="form-label">Correo electrónico</label>
+        <input
+          type="email"
+          name="email"
+          class="form-control"
+          id="email"
+          placeholder="tucorreo@ejemplo.com"
+          required
+        />
+      </div>
+
+      <div class="mb-3">
+        <label for="telefono" class="form-label">Número de teléfono</label>
+        <input
+          type="tel"
+          name="telefono"
+          class="form-control"
+          id="telefono"
+          placeholder="+54 9 11 1234-5678"
+          required
+        />
+      </div>
+
+      <div class="mb-3">
+        <label for="mensaje" class="form-label">Mensaje</label>
+        <textarea
+          name="mensaje"
+          class="form-control"
+          id="mensaje"
+          rows="3"
+          placeholder="Contanos qué modelo te interesa, o dejá tu consulta..."
+          required
+        ></textarea>
+      </div>
+
+      <div class="d-grid">
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<footer class="bg-dark text-white py-3 w-100">
+  <div class="container">
+    <div class="row align-items-center text-center text-md-start">
+      <!-- Izquierda: Correo -->
+      <div class="col-md-4 text-md-start mb-2 mb-md-0">
+        <i class="fas fa-envelope"></i> ventas@centraldeplanesadministracion.com
+      </div>
+
+      <!-- Centro: Casa Central -->
+      <div class="col-md-4 text-center mb-2 mb-md-0">
+        <strong class="fs-4 text-light">Casa Central</strong>
+      </div>
+
+      <!-- Derecha: WhatsApp -->
+      <div class="col-md-4 text-md-end">
+        <i class="fab fa-whatsapp"></i> 11 3075-0304
+      </div>
+    </div>
+  </div>
+</footer>
+
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  rel="stylesheet"
+/>
+
+<script>
+  function changeImage(thumbnail) {
+    const mainImage = document.getElementById('mainImage');
+    mainImage.src = thumbnail.src;
+
+    const thumbnails = document.querySelectorAll('.Celu .thumbnail');
+    thumbnails.forEach(img => img.classList.remove('active'));
+    thumbnail.classList.add('active');
+  }
+
+  function changeImageCompu(thumbnail) {
+    const mainImage = document.getElementById('mainImageCompu');
+    mainImage.src = thumbnail.src;
+
+    const thumbnails = document.querySelectorAll('.Compu .thumbnail');
+    thumbnails.forEach(img => img.classList.remove('active'));
+    thumbnail.classList.add('active');
+  }
+
+  function changeImageTablet(thumbnail) {
+    const mainImage = document.getElementById('mainImageTablet');
+    mainImage.src = thumbnail.src;
+
+    const thumbnails = document.querySelectorAll('.Tablet .thumbnail');
+    thumbnails.forEach(img => img.classList.remove('active'));
+    thumbnail.classList.add('active');
+  }
+</script>
+
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+  crossorigin="anonymous"
+></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+.resolucion{
+    width: 100%;
+    text-align: center;
+    
+}
+@media (max-width: 767px){
+  .Compu, .Tablet {
+    display: none;
+  }
+  .Celu {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 990px){
+  .Compu, .Celu {
+    display: none;
+  }
+  .Tablet {
+    display: block;
+  }
+}
+
+@media (min-width: 991px) {
+  .Celu, .Tablet {
+    display: none;
+  }
+  .Compu {
+    display: block;
+  }
+}
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.resolucion2 {
+  flex: 1; /* toma todo el espacio disponible */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* si querés centrar vertical el contenido */
+  align-items: center;
+}
+.card:last-child {
+  margin-bottom: 0;
+}
+.thumbnail {
+  width: 80px;
+  height: 60px;
+  object-fit: cover;
+  border: 2px solid transparent;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.thumbnail.active {
+  border: 2px solid #007bff;
+}
+img.img-fluid {
+  max-width: 100%;
+  height: auto;
+  max-height: 500px; /* o el valor que prefieras */
+  object-fit: contain;
+  margin: 0 auto;
+}
